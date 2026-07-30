@@ -1,0 +1,58 @@
+[
+  {
+    "id": "kb-101",
+    "destination": "Paris",
+    "category": "Culture & Heritage",
+    "title": "Parisian Museum Pass & Cultural Etiquette",
+    "content": "When visiting Paris, purchase the Paris Museum Pass to skip ticket lines at over 50 monuments including the Louvre, Musée d'Orsay, and Arc de Triomphe. Always greet shopkeepers with 'Bonjour Madame/Monsieur' when entering stores. Tipping of 5-10% is polite for exceptional service, though service charges are included (service compris)."
+  },
+  {
+    "id": "kb-102",
+    "destination": "Paris",
+    "category": "Food & Dining",
+    "title": "Authentic Bistro Dining in Le Marais",
+    "content": "For top-tier Parisian cuisine away from tourist traps, visit Le Marais district. Recommended spots include L'As du Fallafel for legendary lunch pita, Chez Janou for traditional Provençal dishes and free-flowing chocolate mousse, and Breizh Café for savory buckwheat galettes."
+  },
+  {
+    "id": "kb-103",
+    "destination": "Tokyo",
+    "category": "Transport & Rules",
+    "title": "Tokyo Metro, Suica Cards, and Customary Manners",
+    "content": "Get a digital or physical Suica/Pasmo IC card for instant tapping on Tokyo Metro and convenience stores. Never speak loudly on trains, avoid eating while walking on streets, and stand on the left side of escalators in Tokyo (right side in Osaka). Trash cans are rare in public, so carry a small bag for your litter."
+  },
+  {
+    "id": "kb-104",
+    "destination": "Tokyo",
+    "category": "Hidden Gems & Cafes",
+    "title": "Yanaka Old Town & Golden Gai Nightlife",
+    "content": "Yanaka Ginza retains historic pre-war Shitamachi charm with traditional wooden tea houses and cat-themed artisan shops. For nightlife, explore Shinjuku's Golden Gai—a labyrinth of 200 tiny micro-bars built across 6 narrow alleys, each accommodating 5-8 guests with unique theme aesthetics."
+  },
+  {
+    "id": "kb-105",
+    "destination": "Rome",
+    "category": "Attractions & Tips",
+    "title": "Colosseum & Vatican Early Access",
+    "content": "Book Colosseum and Vatican Museums underground access tickets at least 60 days in advance. Drink water freely from 'Nasoni' public drinking fountains throughout Rome. Remember that ordering a 'latte' at an Italian bar will yield a plain glass of warm milk—order 'Caffè Latte' or 'Cappuccino' instead (before 11 AM)."
+  },
+  {
+    "id": "kb-106",
+    "destination": "General",
+    "category": "Emergency & Safety",
+    "title": "Universal Emergency Travel Safety Checklist",
+    "content": "Always keep digital scans of your passport, travel insurance policy, and visa stored in cloud drive. Save local emergency service numbers (112 in Europe, 911 in USA, 110/119 in Japan). Use cross-body anti-theft bags in dense crowded tourist hubs to prevent pickpocketing."
+  },
+  {
+    "id": "kb-107",
+    "destination": "New York",
+    "category": "Food & Hidden Gems",
+    "title": "NYC Speakeasies & Neighborhood Food Tours",
+    "content": "Explore Greenwich Village and Lower East Side for secret speakeasy bars like Please Don't Tell (entered via hot dog shop phone booth) and Employee Only. Grab classic $1.50 NY dollar slices at Joe's Pizza on Carmine Street or authentic soup dumplings in Chinatown."
+  },
+  {
+    "id": "kb-108",
+    "destination": "Dubai",
+    "category": "Cultural Rules & Luxury",
+    "title": "Dubai Dress Code & Desert Safari Etiquette",
+    "content": "While Dubai is cosmopolitan, modest dress covering shoulders and knees is appreciated in malls, mosques, and government buildings. When taking desert dune bashing safaris, request a driver with certified off-road credentials and wear light breathable cotton."
+  }
+]
