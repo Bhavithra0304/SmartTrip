@@ -1,0 +1,80 @@
+:root {
+  /* Color Palette - MyTripMatch & Indigo Modern Light Theme */
+  --primary-color: #6366F1;
+  --primary-hover: #4F46E5;
+  --primary-light: #EEF2FF;
+  --secondary-color: #8B5CF6;
+  --secondary-hover: #7C3AED;
+  --accent-color: #06B6D4;
+  --accent-hover: #0891B2;
+  
+  /* Backgrounds & Surface */
+  --bg-color: #F8FAFC;
+  --bg-gradient: linear-gradient(135deg, #EEF2FF 0%, #F5F3FF 50%, #F8FAFC 100%);
+  --card-bg: #FFFFFF;
+  --card-border: #E2E8F0;
+  --glass-bg: rgba(255, 255, 255, 0.85);
+  --glass-border: rgba(226, 232, 240, 0.8);
+  --hover-bg: #F1F5F9;
+
+  /* Text Colors */
+  --text-main: #0F172A;
+  --text-muted: #64748B;
+  --text-light: #94A3B8;
+
+  /* Status Colors */
+  --success: #10B981;
+  --warning: #F59E0B;
+  --danger: #EF4444;
+  --info: #3B82F6;
+
+  /* Fonts & Radius */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --border-radius: 14px;
+  --border-radius-sm: 8px;
+  --border-radius-lg: 20px;
+
+  /* Shadows & Glows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 6px 16px rgba(99, 102, 241, 0.08);
+  --shadow-lg: 0 12px 32px rgba(99, 102, 241, 0.14);
+  --shadow-glow: 0 0 25px rgba(99, 102, 241, 0.25);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Dark Theme Variables */
+[data-theme="dark"] {
+  --primary-color: #818CF8;
+  --primary-hover: #6366F1;
+  --primary-light: rgba(99, 102, 241, 0.15);
+  --secondary-color: #A78BFA;
+  --secondary-hover: #8B5CF6;
+  --accent-color: #22D3EE;
+  --accent-hover: #06B6D4;
+
+  /* Backgrounds & Surface */
+  --bg-color: #0B0F19;
+  --bg-gradient: linear-gradient(135deg, #0B0F19 0%, #111827 50%, #0F172A 100%);
+  --card-bg: #1E293B;
+  --card-border: rgba(255, 255, 255, 0.1);
+  --glass-bg: rgba(30, 41, 59, 0.85);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --hover-bg: #334155;
+
+  /* Text Colors */
+  --text-main: #F8FAFC;
+  --text-muted: #94A3B8;
+  --text-light: #64748B;
+
+  /* Status Colors */
+  --success: #34D399;
+  --warning: #FBBF24;
+  --danger: #F87171;
+  --info: #60A5FA;
+
+  /* Shadows & Glows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 6px 16px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 30px rgba(129, 140, 248, 0.35);
+}

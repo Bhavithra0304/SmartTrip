@@ -1,0 +1,86 @@
+.planner-page {
+  padding: 2.5rem 1.5rem;
+}
+
+.planner-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.planner-header {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+}
+
+.planner-header .header-left {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.planner-form-card {
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.form-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.interests-section {
+  margin-bottom: 1.5rem;
+}
+
+.interests-section label {
+  font-size: 0.88rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.interests-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.interest-pill {
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  padding: 0.5rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.interest-pill.selected {
+  background: var(--hover-bg);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.plan-submit-btn {
+  width: 100%;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 1.05rem;
+}
+
+.result-controls {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}

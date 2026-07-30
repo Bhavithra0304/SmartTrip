@@ -1,0 +1,127 @@
+.agent-stepper-card {
+  margin-bottom: 2rem;
+}
+
+.stepper-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.stepper-title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.master-icon {
+  color: var(--primary-color);
+}
+
+.agent-tree-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.agent-node {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.85rem 1rem;
+  border-radius: var(--border-radius-sm);
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-color);
+  transition: var(--transition);
+}
+
+.agent-node.status-completed {
+  background-color: #F0FDF4;
+  border-color: #BBF7D0;
+}
+
+.agent-node.status-running {
+  background-color: var(--hover-bg);
+  border-color: var(--secondary-color);
+}
+
+.node-left {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.icon-wrapper {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+}
+
+.node-info h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.node-info p {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.3rem 0.6rem;
+  border-radius: 12px;
+}
+
+.status-badge.completed {
+  color: var(--success);
+  background-color: #DCFCE7;
+}
+
+.status-badge.running {
+  color: var(--primary-color);
+  background-color: #E0F2FE;
+}
+
+.status-badge.pending {
+  color: var(--text-muted);
+  background-color: #F1F5F9;
+}
+
+.spin {
+  animation: spinAnim 1s linear infinite;
+}
+
+@keyframes spinAnim {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.tree-connector {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 27px;
+}
+
+.connector-line {
+  width: 2px;
+  height: 14px;
+  background-color: var(--border-color);
+  transition: var(--transition);
+}
+
+.connector-line.active {
+  background-color: var(--success);
+}
